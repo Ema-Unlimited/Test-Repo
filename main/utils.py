@@ -7,3 +7,6 @@ def identify_image(image_path):
             return f"{image_path} {im.format} {im.size}x{im.mode}"
     except OSError:
         pass
+
+-- requirements.txt --
+Pillow==9.3.0
