@@ -1,11 +1,4 @@
-Update:
-
-from PIL import Image
-
-to:
-
-from PIL import Image, ImageOps
-
+from PIL import ImageOps, Image
 
 def identify_image(image_path):
     try:
