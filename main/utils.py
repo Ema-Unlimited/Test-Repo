@@ -1,9 +1,5 @@
-from PIL import Image
+No changes needed.
 
+-- requirements.txt --
+Pillow==9.3.0
 
-def identify_image(image_path):
-    try:
-        with Image.open(image_path) as im:
-            return f"{image_path} {im.format} {im.size}x{im.mode}"
-    except OSError:
-        pass
