@@ -1,3 +1,5 @@
+File changed: main/utils.py
+
 from PIL import Image
 
 
@@ -7,3 +9,4 @@ def identify_image(image_path):
             return f"{image_path} {im.format} {im.size}x{im.mode}"
     except OSError:
         pass
+
